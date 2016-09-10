@@ -26,7 +26,11 @@ nav ul {
 nav ul a {
     text-decoration: none;
 }
-
+a.linkLista{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
 article {
     margin-left: 170px;
     border-left: 1px solid gray;
@@ -52,5 +56,20 @@ div.imagen img {
 div.desc {
     padding: 15px;
     text-align: center;
+}
+ul.listaProductos{
+    list-style-type: none;
+    padding:0;
+    border: 1 px solid #ccc;
+    float: left;
+}
+li.elementoLista{
+    padding: 8px 160px;
+    border: 1px solid #ddd;
+    margin: 5px;
+    background-color: grey;
+}
+li.elementoLista:hover{
+    border: 1px solid black;
 }
 }
