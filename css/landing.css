@@ -49,6 +49,12 @@ div.imagen{
 div.imagen:hover {
     border: 1px solid #777;
 }
+div.imagenDetalle{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
 
 div.imagen img {
     width: 100%;
@@ -102,4 +108,7 @@ ul.navegacion li.flechaJerarquia {
 #actual {
      border: 1px solid black;
     cursor:default;
+}
+br{
+    clear: both;
 }
