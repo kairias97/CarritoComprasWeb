@@ -35,7 +35,9 @@ article {
     margin-left: 170px;
     border-left: 1px solid gray;
     padding: 1em;
+    height: inherit;
     overflow: hidden;
+    display:block;
 }
 div.imagen{
     margin: 5px;
@@ -69,7 +71,35 @@ li.elementoLista{
     margin: 5px;
     background-color: grey;
 }
-li.elementoLista:hover{
+ul.navegacion{
+    list-style-type: none;
+    padding:0;
+    border: 1 px solid #ccc;
+    float: left;
+}
+li.elementoNavegacion{
+    padding: 8px 40px;
+    border: 1px solid #ddd;
+    margin: 5px;
+    background-color: grey;
+    text-align: center;
+}
+li.flechaJerarquia{
+    padding: 8px 40px;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+}
+li.elementoLista:hover, li.elementoNavegacion:hover{
     border: 1px solid black;
 }
+ul.navegacion li.flechaJerarquia img{
+    width:25px; 
+}
+ul.navegacion li.flechaJerarquia {
+    padding: 0;
+}
+#actual {
+     border: 1px solid black;
+    cursor:default;
 }

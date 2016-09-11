@@ -2,29 +2,34 @@
   <HEAD>
   <title>Laptops</title>
   <link rel="stylesheet" type="text/css" href="css/landing.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="javascript/linkactivo.js"></script>
   </HEAD>
   <BODY>
 <div class="container">
 
 <header>
-   <h1>Tienda de productos electronicos</h1>
+   <h1>Tienda de productos electrónicos "Electronics"</h1>
 </header>
-  
 <nav>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="categorias.html">Categorias</a></li>
+
+  <ul class="navegacion">
+    <li class="elementoNavegacion"><a href="index.html" class="linkLista">Home</a></li>
+      <li class="flechaJerarquia"><img src="imagenes/flecha-navegacion.png"/></li>
+    <li class="elementoNavegacion"><a href="categorias.html" class="linkLista">Categorías</a></li>
+            <li class="flechaJerarquia"><img src="imagenes/flecha-navegacion.png"/></li>
+      <li class="elementoNavegacion" id="actual"><a class="linkLista">Lista de Laptops</a></li>
   </ul>
 </nav>
 
 <article>
-  <h1>Laptops</h1>
-  <p>A continuacion, se muestran los productos que ofrecemos en esta categoria</p>
+  <h1>Categoría de Laptops</h1>
+  <p>A continuación, se muestran los productos que ofrecemos en esta categoría.</p>
   <ul class="listaProductos">
-    <a href="#" class="linkLista"><li class="elementoLista">HP</li></a>
-    <a href="#" class="linkLista"><li class="elementoLista">Asus</li></a>
-    <a href="#" class="linkLista"><li class="elementoLista">Lenovo</li></a>
-    <a href="#" class="linkLista"><li class="elementoLista">Samsung</li></a>
+    <a href="detalle_laptop1.html" class="linkLista"><li class="elementoLista">Laptop HP</li></a>
+    <a href="detalle_laptop2.html" class="linkLista"><li class="elementoLista">Laptop Asus</li></a>
+    <a href="detalle_laptop3.html" class="linkLista"><li class="elementoLista">Laptop Lenovo</li></a>
+    <a href="detalle_laptop4.html" class="linkLista"><li class="elementoLista">Laptop Samsung</li></a>
   </ul>
 </article>
 

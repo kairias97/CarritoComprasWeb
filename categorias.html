@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <HTML>
   <HEAD>
-  <title>Categorias</title>
+  <title>Categorías</title>
   	<link rel="stylesheet" type="text/css" href="css/landing.css">
   </HEAD>
   <BODY>
 <div class="container">
 
 <header>
-   <h1>Tienda de productos electronicos</h1>
+   <h1>Tienda de productos electrónicos "Electronics"</h1>
 </header>
   
 <nav>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="#">Categorias</a></li>
+
+  <ul class="navegacion">
+    <li class="elementoNavegacion"><a href="index.html" class="linkLista">Home</a></li>
+      <li class="flechaJerarquia"><img src="imagenes/flecha-navegacion.png"/></li>
+    <li class="elementoNavegacion" id="actual"><a id="activo" class="linkLista">Categorías</a></li>     
   </ul>
 </nav>
-
 <article>
-  <h1>Categorias</h1>
-  <p>Estas son las categorias que le ofrecemos.</p>
-  <div class="imagen">
-  	<a href="laptops.html">
+    <div style="width:100%">  <h1>Categorías de Productos</h1>
+  <p>Estas son las categorías de productos que le ofrecemos.</p>
+    </div>
+<div>
+    
+    
+    </div>
+  <a href="laptops.html">
+    <div class="imagen">
   		<img src="imagenes/1.jpg" alt="Laptops" width="180">
-  	</a>
-  	<div class="desc">Descripcion hechiza</div>
+  	<br/>
+  	<div class="desc">Laptops</div>
   </div>
+      </a>
+    <a href="celulares.html">
+      <div class="imagen">
+        <img src="imagenes/2.jpg" alt="Celulares" width="180"> 
+        <div class="desc">Celulares</div>
+      </div>
+    </a>
+    <a href="tablets.html">
   <div class="imagen">
-  	<a href="celulares.html">
-  		<img src="imagenes/2.jpg" alt="Celulares" width="180"> 
-  	</a>
-  	<div class="desc">Descripcion hechiza</div>
-  </div>
-  <div class="imagen">
-  	<a href="tablets.html">
+  	
   		<img src="imagenes/3.jpg" alt="Tablets" width="180">
-  	</a>
-  	<div class="desc">Descripcion hechiza</div>
+
+  	<div class="desc">Tablets</div>
+        
   </div>
+        	</a>
 </article>
 
 <footer></footer>
