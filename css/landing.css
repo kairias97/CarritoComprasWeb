@@ -112,3 +112,14 @@ ul.navegacion li.flechaJerarquia {
 br{
     clear: both;
 }
+button.carrito{
+    background-color: grey;
+    color: white;
+    font-size: 17px;
+    font-family: "Verdana", Times, serif;
+    padding-bottom: 5px;
+}
+button.carrito:hover{
+    background-color: white;
+    color: black;
+}
