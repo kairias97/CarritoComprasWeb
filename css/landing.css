@@ -54,6 +54,7 @@ article.compra{
     height: inherit;
     overflow: hidden;
     display:block;
+    border-bottom: 1px solid gray;
 }
 div.imagen{
     margin: 5px;
@@ -128,14 +129,39 @@ ul.navegacion li.flechaJerarquia {
 br{
     clear: both;
 }
-button.carrito{
+a.carrito{
     background-color: grey;
     color: white;
     font-size: 17px;
     font-family: "Verdana", Times, serif;
     padding-bottom: 5px;
+    text-decoration: none;
 }
-button.carrito:hover{
+a.carrito:hover{
     background-color: white;
     color: black;
+    border: 1px solid black;
+}
+#resumenCarrito{
+    border-bottom: 1px solid;
+    
+}
+ul li h3 {
+    text-decoration: underline;
+}
+ul li ul li {
+    margin-bottom: 10px
+    
+}
+.precioItem{
+    border: 1px solid gray;
+    display:flex;
+    margin-top: 25px;
+    
+}
+div.precioItem ul{
+    list-style-type: none;
+}
+div.precioItem ul li{
+    margin-bottom: 10px;
 }

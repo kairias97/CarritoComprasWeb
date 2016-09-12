@@ -1,13 +1,14 @@
 <HTML>
   <HEAD>
   <meta charset="utf-8">
-  <title>Laptops</title>
+  <title>Carrito de Compras</title>
   <link rel="stylesheet" type="text/css" href="css/landing.css">
   <link rel="stylesheet" type="text/css" href="css/carrito.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <script src="javascript/linkactivo.js"></script>
+    
       <script type="text/javascript" src="javascript/popup.js">
       </script>
+        <script src="javascript/linkactivo.js"></script>
       <script type="text/javascript" src="javascript/linkactivo.js"></script>
   </HEAD>
   <BODY>
@@ -23,58 +24,69 @@
       <li class="flechaJerarquia"><img src="imagenes/flecha-navegacion.png"/></li>
     <a href="categorias.html" class="linkLista"><li class="elementoNavegacion">Categorías</li></a>
             <li class="flechaJerarquia"><img src="imagenes/flecha-navegacion.png"/></li>
-     <a href="laptops.html" class="linkLista"><li class="elementoNavegacion">Lista de Laptops</li></a>
+     <a href="celulares.html" class="linkLista"><li class="elementoNavegacion">Lista de Celulares</li></a>
                   <li class="flechaJerarquia"><img src="imagenes/flecha-navegacion.png"/></li>
       
-      <a class="linkLista"><li class="elementoNavegacion" id="actual">Detalle de Laptop</li></a>
+      <a class="linkLista" href="detalle_celular1.html"><li class="elementoNavegacion" >Detalle de Celular</li></a>
+       <li class="flechaJerarquia"><img src="imagenes/flecha-navegacion.png"/></li>
+      
+      <a class="linkLista"><li class="elementoNavegacion" id="actual">Carrito de compras</li></a>
   </ul>
 </nav>
 <nav class="compra">
 
-  <ul class="navegacion">
-    <a href="index.html" class="linkLista"><li class="elementoNavegacion">Home</li></a>
-      <li class="flechaJerarquia"><img src="imagenes/flecha-navegacion.png"/></li>
-    <a href="categorias.html" class="linkLista"><li class="elementoNavegacion">Categorías</li></a>
-            <li class="flechaJerarquia"><img src="imagenes/flecha-navegacion.png"/></li>
-     <a href="laptops.html" class="linkLista"><li class="elementoNavegacion">Lista de Laptops</li></a>
-                  <li class="flechaJerarquia"><img src="imagenes/flecha-navegacion.png"/></li>
-      
-      <a class="linkLista"><li class="elementoNavegacion" id="actual">Detalle de Laptop</li></a>
+  <ul id="resumenCarrito"class="navegacion">
+    <li><h3>Resumen del Carrito</h3></li>
+      <li><ul>
+          <li><strong>Subtotal: </strong>$489.99</li>
+          <li><strong>IVA: </strong>$78.3984</li>
+          <li><strong>Total: </strong>$568.3884</li>
+          </ul></li>
   </ul>
 </nav>
 <article class="compra">
-  <h1>Laptop HP</h1>
+  <h1>Item #1: Celular Samsung</h1>
   <div class="imagenDetalle">
-    <img src="imagenes/hp-spectre.jpg" width="300 px">
+    <img src="imagenes/samsung-galaxy-s7.jpg" width="300 px" data-cuadro-emergente="popup" >
   </div>
-  <br/>
+    <div class="precioItem">
+        <ul>
+        <li><h1>Montos del Item#1</h1>
+            </li>
+             <li><strong>Precio Unitario:  </strong>$489.99 </li>
+             <li><strong>Cantidad agregada: </strong>1 </li>
+             <li><strong>Total por el Item:  </strong>$489.99 </li>
+            
+           
+        </ul>
+    </div>
+
 <div id="popup" class="cajapopup">
      <h2>Detalles del Item del carrito</h2>
      <ul>
        <li><h3>
        Información del modelo</h3>
          <ul>
-         <li><strong>Fabricante: </strong> Asus</li>
-          <li><strong>Modelo: </strong> RJ45MX</li>
-           <li><strong>Color: </strong> Plateado </li>
+         <li><strong>Fabricante: </strong> Samsung</li>
+          <li><strong>Modelo: </strong> Galaxy S7</li>
+           <li><strong>Color: </strong> Negro/Blanco/Dorado </li>
          </ul>
        </li>
        <li> <h3>Especificaciones técnicas</h3>
           <ul>
-             <li>Cámara VGA</li>
-             <li> Pantalla HD 1280x720</li>
-             <li>Pantalla táctil</li>
-             <li>Teclado retroiluminado</li>
+             <li>4 GB RAM</li>
+             <li> Android 6.0</li>
+             <li>Resolución 2560 x 1440 pixeles</li>
+             <li>Procesador Quad-Core</li>
+              <li>Memoria interna de 32 GB, expandible a 200 GB</li>
           </ul>
        </li>
      </ul>
 </div>
-<div class="filaItemCarrito">
-<img src="http://image.priceprice.k-img.com/global/images/product/laptops/ASUS_X455LF/ASUS_X455LF_L_1.jpg" class="listimage" data-cuadro-emergente="popup"/>
 </article>
 
 <footer>Dustin Espinoza y Kevin Irías</footer>
 
-</div>
+
   </BODY>
 </HTML>
