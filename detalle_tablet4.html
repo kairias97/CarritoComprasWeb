@@ -5,6 +5,7 @@
   <link rel="stylesheet" type="text/css" href="css/landing.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <script src="javascript/linkactivo.js"></script>
+      <script src="javascript/alerta.js"></script>
   </HEAD>
   <BODY>
 <div class="container">
@@ -30,7 +31,7 @@
 <article>
   <h1>Tablet AOC</h1>
   <div class="imagenDetalle">
-    <img src="imagenes/aoc.jpg" width="300 px">
+    <img src="imagenes/aoc.jpg" width="300 px" data-precio="$149.99" data-nombre-producto="Tablet AOC" onmouseover="mostrarPopup(this)" onload="permitirPopup(this)" data-flag="false">
   </div>
   <br/>
     <strong>Precio: </strong>$149.99<p>

@@ -5,6 +5,7 @@
   <link rel="stylesheet" type="text/css" href="css/landing.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <script src="javascript/linkactivo.js"></script>
+      <script src="javascript/alerta.js"></script>
   </HEAD>
   <BODY>
 <div class="container">
@@ -28,9 +29,9 @@
 </nav>
 
 <article>
-  <h1>Laptop ASUS</h1>
+  <h1>Laptop Asus</h1>
   <div class="imagenDetalle">
-    <img src="imagenes/asus-zenbook.jpg" width="300 px">
+    <img src="imagenes/asus-zenbook.jpg" width="300 px" data-precio="$749.00" data-nombre-producto="Laptop Asus" onmouseover="mostrarPopup(this)" onload="permitirPopup(this)" data-flag="false">
   </div>
   <br/>
     <strong>Precio: </strong>$749.00<p>
